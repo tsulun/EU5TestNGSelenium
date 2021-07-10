@@ -44,7 +44,7 @@ public class MultipleWindows {
         //loop through each window if there are many tabs
         for (String windowHandle : windowHandles) {
             driver.switchTo().window(windowHandle);
-            //whenever you title equaks to your expected window title
+            //whenever you title equals to your expected window title
             if(driver.getTitle().equals("New Window"));
             break;
 
